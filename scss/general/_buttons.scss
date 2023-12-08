@@ -1,0 +1,29 @@
+.button {
+  background: $yellow;
+  padding: 1rem 1.55rem;
+  border-radius: $border-radius-full;
+  width: fit-content;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  transition: ease-in-out .2s;
+  position: relative;
+  color: black;
+  border: none;
+  &:hover {
+    background: rgb(255, 230, 0);
+    cursor: pointer;
+  }
+  &--small {
+    padding: .5rem 1rem;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

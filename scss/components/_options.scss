@@ -1,0 +1,37 @@
+.options__cards {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: -16rem;
+}
+
+.options__card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #00000075;
+    padding: 1rem 1.25rem;
+    border-radius: 32px;
+    flex: 1;
+    margin: 0rem .75rem;
+    &:first-child {
+        margin-left: 0;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+    &-heading {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    &-image {
+        margin-bottom: .5rem;
+        img {
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+}

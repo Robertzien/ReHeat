@@ -1,0 +1,97 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font-size-body;
+  color: white;
+  font-family: $font-family-body;
+}
+
+.container {
+  display: flex;
+  padding: 1rem 2rem;
+  @media (min-width: $breakpoint-10) {
+    padding: 3rem 3rem;
+  };
+  @media (min-width: $breakpoint-20) {
+    padding: 5rem 5rem;
+  };
+  @media (min-width: $breakpoint-40) {
+    padding: 5rem 6rem;
+  }
+}
+
+body {
+  margin: 0;
+  position: relative;
+  overflow-x: hidden;
+  background: #1E425E;
+  height: 100%;
+  position: relative;
+  z-index: -3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+  @media (min-width: $breakpoint-20) {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 2.25rem;
+  @media (min-width: $breakpoint-20) {
+    font-size: 2.75rem;
+  }
+}
+
+h3 {
+  font-size: 1.875rem;
+  @media (min-width: $breakpoint-20) {
+    font-size: 2rem;
+  }
+}
+
+h4 {
+  font-size: 1.75rem;
+  @media (min-width: $breakpoint-20) {
+    font-size: 1.875rem;
+  }
+}
+
+h5 {
+  font-size: 1.75rem;
+  @media (min-width: $breakpoint-20) {
+    font-size: 1.875rem;
+  }
+}
+
+h6 {
+  font-size: 1.75rem;
+  @media (min-width: $breakpoint-20) {
+    font-size: 1.875rem;
+  }
+}
+
+p {
+  font-size: $font-size-body;
+  font-family: $font-family-body;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 100;
+}
