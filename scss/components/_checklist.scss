@@ -1,0 +1,16 @@
+.container--checklist {
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.checklist__item {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    &:before {
+        content: url(/images/Icon\ awesome-check.svg);
+        margin-right: 1rem;
+    }
+}

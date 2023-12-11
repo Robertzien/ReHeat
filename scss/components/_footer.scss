@@ -1,0 +1,23 @@
+footer .container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+    background: #00000075;;
+    padding: 5rem 6rem;
+    margin-top: 4rem;
+    border-radius: 7rem 7rem 0 0 ;
+}
+
+.column {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    p {
+        max-width: 50%;
+        margin: 0;
+    }
+    a {
+        font-size: 16px;
+    }
+}
