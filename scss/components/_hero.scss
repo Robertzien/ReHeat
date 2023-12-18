@@ -10,7 +10,7 @@
         max-width: 53%;
         color: white;
         margin-top: 4.5rem;
-        z-index: 1;
+        z-index: 2;
         text-shadow: 1px 1px 3px black;
         p {
             margin-bottom: 2rem;
@@ -52,6 +52,9 @@
     }
     &--rekentool, &--contact {
         background: url(/images/rekentool-hero.png);
+    }
+    &--private {
+        background: url(/images/cozy-composition-with-burning-candles-interior-room.png);
     }
     &__image img{
         max-width: 325px;

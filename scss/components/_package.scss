@@ -1,0 +1,42 @@
+.package {
+    &__intro {
+        max-width: 60%;
+        margin-bottom: 2rem;
+    }
+    &__content {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    &__column {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        &:first-child {
+            margin-right: 2.5rem;
+        }
+        &-heading {
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        &-item {
+            margin-bottom: 1rem;
+            svg {
+                margin-right: .25rem;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    &__notice {
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+    &__specs {
+        a {
+            color: #FFD03F;
+            text-decoration: underline;
+            font-size: 16px;
+        }
+    }
+}
