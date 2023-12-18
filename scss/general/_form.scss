@@ -1,0 +1,20 @@
+.form {
+    margin-top: 2rem;
+    &__item {
+        display: flex;
+        flex-flow: column nowrap;
+        margin-bottom: 1rem;
+        label {
+            margin-bottom: .5rem;
+        }
+        input {   
+            max-width: 24rem;
+            background-repeat: 999rem;
+            background: #00000075;
+            border: none;
+            height: 2.5rem;
+            border-radius: 999rem;
+            padding-left: 1rem;
+        }
+    }
+}
