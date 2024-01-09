@@ -39,22 +39,22 @@
         position: absolute;
     }
     &--home {
-        background: url(/images/hero.png);
+        background: url(../images/hero.png);
     }
     &--business {
-        background: url(/images/ginger-hendee-N8buV78yNBo-unsplash.png);
+        background: url(../images/ginger-hendee-N8buV78yNBo-unsplash.png);
     }
     &--subsidy {
-        background: url(/images/high-angle-two-stacks-coins-grass-with-jar-plants.png);
+        background: url(../images/high-angle-two-stacks-coins-grass-with-jar-plants.png);
     }
     &--farm {
-        background: url(/images/cows.png);
+        background: url(../images/cows.png);
     }
     &--rekentool, &--contact {
-        background: url(/images/rekentool-hero.png);
+        background: url(../images/rekentool-hero.png);
     }
     &--private {
-        background: url(/images/cozy-composition-with-burning-candles-interior-room.png);
+        background: url(../images/cozy-composition-with-burning-candles-interior-room.png);
     }
     &__image img{
         max-width: 325px;

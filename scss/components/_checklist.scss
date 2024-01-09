@@ -10,7 +10,7 @@
     display: flex;
     flex-flow: row nowrap;
     &:before {
-        content: url(/images/Icon\ awesome-check.svg);
+        content: url(../images/Icon\ awesome-check.svg);
         margin-right: 1rem;
     }
 }
